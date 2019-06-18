@@ -5,10 +5,6 @@
 #Modified Date:
 #Author: Anasree Chatterjee
 # START #
-echo -e "Enter value: \c"
-read -r a
-echo -e "Enter another value:  \c"
-read -r b
-echo "Addition values `expr $a + $b`"
+echo "Addition values `expr $1 + $2`"
 echo "complete !"
 # END #
