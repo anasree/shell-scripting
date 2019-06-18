@@ -9,6 +9,6 @@ echo -e "Enter value: \c"
 read -r a
 echo -e "Enter another value:  \c"
 read -r b
-echo "Addition values `expr $a+$b`"
+echo "Addition values `expr $a + $b`"
 echo "complete !"
 # END #
