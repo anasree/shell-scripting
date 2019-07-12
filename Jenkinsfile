@@ -1,13 +1,18 @@
 pipeline{
+
   agent any
+
     stages{
-      stage("Setup"){
+
+      stage('Setup'){
+
         steps {
           echo "Hello Ansible"
           sh "date"
         }
       }
-      stage("Configure"){
+
+      stage('Configure'){
         steps {
           sh "cp Jenkinsfile test.txt"
         }
